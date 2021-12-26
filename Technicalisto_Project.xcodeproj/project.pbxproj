@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8B26DD575100FD13CC /* HomeVC.swift */; };
-		101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8D26DD583400FD13CC /* HomeTVC.swift */; };
-		101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8F26DD594200FD13CC /* HomeCVC.swift */; };
+		105EA15226EB84F500638DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105EA15126EB84F500638DE4 /* ViewController.swift */; };
+		10B81DC52778CC260050BC0F /* GetTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B81DC42778CC260050BC0F /* GetTopController.swift */; };
+		10B81DC82778CD0E0050BC0F /* AlertHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B81DC72778CD0E0050BC0F /* AlertHandle.swift */; };
+		10B81DCB2778CD8E0050BC0F /* SetButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B81DCA2778CD8E0050BC0F /* SetButtonDelegate.swift */; };
+		10B81DCE2778CE130050BC0F /* ObserverForGetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B81DCD2778CE130050BC0F /* ObserverForGetImage.swift */; };
 		10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F026CEEC9E000724E6 /* AppDelegate.swift */; };
 		10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F226CEEC9E000724E6 /* SceneDelegate.swift */; };
 		10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F626CEEC9E000724E6 /* Main.storyboard */; };
 		10C288FA26CEEC9F000724E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F926CEEC9F000724E6 /* Assets.xcassets */; };
 		10C288FD26CEEC9F000724E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */; };
 		10C2890526CEECAB000724E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C2890426CEECAB000724E6 /* README.md */; };
+		10C9FDB4277612C0002270BA /* GetImageFromPickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9FDB3277612C0002270BA /* GetImageFromPickerExtension.swift */; };
+		10C9FDB6277612FE002270BA /* ImageResizeByByteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9FDB5277612FE002270BA /* ImageResizeByByteExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		101F0C8B26DD575100FD13CC /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		101F0C8D26DD583400FD13CC /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
-		101F0C8F26DD594200FD13CC /* HomeCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		105EA15126EB84F500638DE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10B81DC42778CC260050BC0F /* GetTopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopController.swift; sourceTree = "<group>"; };
+		10B81DC72778CD0E0050BC0F /* AlertHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandle.swift; sourceTree = "<group>"; };
+		10B81DCA2778CD8E0050BC0F /* SetButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetButtonDelegate.swift; sourceTree = "<group>"; };
+		10B81DCD2778CE130050BC0F /* ObserverForGetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverForGetImage.swift; sourceTree = "<group>"; };
 		10C288ED26CEEC9E000724E6 /* Technicalisto_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technicalisto_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C288F026CEEC9E000724E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C288F226CEEC9E000724E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +36,8 @@
 		10C288FC26CEEC9F000724E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C288FE26CEEC9F000724E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C2890426CEECAB000724E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		10C9FDB3277612C0002270BA /* GetImageFromPickerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageFromPickerExtension.swift; sourceTree = "<group>"; };
+		10C9FDB5277612FE002270BA /* ImageResizeByByteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeByByteExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B81DC12778CB160050BC0F /* Get One Image Handle */ = {
+			isa = PBXGroup;
+			children = (
+				10B81DCC2778CDFB0050BC0F /* Observer */,
+				10B81DC92778CD710050BC0F /* Button Delegate */,
+				10B81DC62778CCEE0050BC0F /* Alert Controller */,
+				10B81DC32778CBF80050BC0F /* Top Controller */,
+				10C9FDB827761345002270BA /* Image Resize */,
+				10C9FDB727761335002270BA /* Image Picker */,
+			);
+			path = "Get One Image Handle";
+			sourceTree = "<group>";
+		};
+		10B81DC32778CBF80050BC0F /* Top Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10B81DC42778CC260050BC0F /* GetTopController.swift */,
+			);
+			path = "Top Controller";
+			sourceTree = "<group>";
+		};
+		10B81DC62778CCEE0050BC0F /* Alert Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10B81DC72778CD0E0050BC0F /* AlertHandle.swift */,
+			);
+			path = "Alert Controller";
+			sourceTree = "<group>";
+		};
+		10B81DC92778CD710050BC0F /* Button Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				10B81DCA2778CD8E0050BC0F /* SetButtonDelegate.swift */,
+			);
+			path = "Button Delegate";
+			sourceTree = "<group>";
+		};
+		10B81DCC2778CDFB0050BC0F /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				10B81DCD2778CE130050BC0F /* ObserverForGetImage.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		10C288E426CEEC9D000724E6 = {
 			isa = PBXGroup;
 			children = (
@@ -63,17 +116,40 @@
 			isa = PBXGroup;
 			children = (
 				10C2890426CEECAB000724E6 /* README.md */,
+				10C9FDB927761364002270BA /* Controller */,
+				10B81DC12778CB160050BC0F /* Get One Image Handle */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
 				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
-				101F0C8B26DD575100FD13CC /* HomeVC.swift */,
-				101F0C8D26DD583400FD13CC /* HomeTVC.swift */,
-				101F0C8F26DD594200FD13CC /* HomeCVC.swift */,
 				10C288F926CEEC9F000724E6 /* Assets.xcassets */,
 				10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */,
 				10C288FE26CEEC9F000724E6 /* Info.plist */,
 			);
 			path = Technicalisto_Project;
+			sourceTree = "<group>";
+		};
+		10C9FDB727761335002270BA /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				10C9FDB3277612C0002270BA /* GetImageFromPickerExtension.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		10C9FDB827761345002270BA /* Image Resize */ = {
+			isa = PBXGroup;
+			children = (
+				10C9FDB5277612FE002270BA /* ImageResizeByByteExtension.swift */,
+			);
+			path = "Image Resize";
+			sourceTree = "<group>";
+		};
+		10C9FDB927761364002270BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				105EA15126EB84F500638DE4 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,11 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */,
 				10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */,
-				101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */,
+				105EA15226EB84F500638DE4 /* ViewController.swift in Sources */,
+				10B81DC52778CC260050BC0F /* GetTopController.swift in Sources */,
+				10C9FDB6277612FE002270BA /* ImageResizeByByteExtension.swift in Sources */,
+				10B81DCE2778CE130050BC0F /* ObserverForGetImage.swift in Sources */,
+				10C9FDB4277612C0002270BA /* GetImageFromPickerExtension.swift in Sources */,
+				10B81DCB2778CD8E0050BC0F /* SetButtonDelegate.swift in Sources */,
+				10B81DC82778CD0E0050BC0F /* AlertHandle.swift in Sources */,
 				10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */,
-				101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
